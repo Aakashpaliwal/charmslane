@@ -1,0 +1,310 @@
+body{margin:0px;
+font-family:"Play", Helvetica, Arial, Verdana, sans-serif;}
+
+/* latin */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play Regular'), local('Play-Regular'), url(http://fonts.gstatic.com/s/play/v9/ZNo-5SxCwH1CXgZ-n3bt2g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+.margin20{margin: 20px;}
+
+.bg0{background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+    margin-bottom: 0px;
+    border-radius: 0px;}
+.margin15{margin: 15px;}
+.margin-spc{margin:40px;}
+.relative{position: relative;}
+.affix {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(36, 83, 153, 0.86);
+    top: 0px;
+    z-index: 9999;
+    border-radius: 0px;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=162, Color=#cccccc)";
+    -moz-box-shadow: 1px 3px 3px #cccccc;
+    -webkit-box-shadow: 1px 3px 3px #cccccc;
+    box-shadow: 1px 3px 3px rgba(39, 39, 39, 0.1);
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=162, Color=#cccccc);
+}
+.affix .navbar-nav>li>a {
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.logo{
+	margin-top: 10px;
+	text-align: center;
+}
+.logo img{
+	margin:0px auto;
+}
+.contact p{
+	margin-top:12px;
+	text-align: right;
+}
+.right-part ul{
+	margin: 0px 15px;
+	padding: 0px;
+}
+.right-part ul li{
+      display: inline-block;
+   margin: 14px 0px 0px 9px;
+    list-style-type: none;
+}
+.right-part ul li .fa {
+	color:#333;
+}
+.right-part {
+	position: absolute;
+	top: 53px;
+	right: 0px;
+	z-index: 9999;}
+
+.banner-text{
+text-align: center;
+}
+.m-top{
+	margin-top: 114px;
+}
+
+.banner-text h3{
+	text-transform: uppercase;
+}
+.btn.btn{
+    color: #fff;
+    background-color:#df2041;
+    padding: 10px 31px;
+}
+.box-grey{
+	background-color: #eeeeee;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 1px;
+}
+.box-grey h4{
+   margin-top:40px;
+}
+
+.middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 93%;
+    width: 93%;
+    opacity: 0;
+    transition: .5s ease;
+     -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 0.56);
+    margin: 0px auto;
+}
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   -moz-transform: translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box-grey:hover .middle {
+  opacity: 1;
+}
+.box-grey img {
+	margin: 0px auto;
+}
+.products{
+	margin-bottom:25px;
+}
+
+.newsletter-bg{
+	background-color:#df2041;
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+}
+.form-control-form {
+    display: block;
+    width: 100%;
+    height: 47px;
+    padding: 6px 2px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #fff;
+    vertical-align: middle;
+    background-color: rgba(240, 240, 240, 0);
+    background-image: none;
+    border: 1px solid #df2041;
+    border-bottom: 1px solid #acacac;
+    /* border-radius: 4px; */
+    outline: none;
+}
+.arrow{
+	    position: absolute;
+    top: 20px;
+    right: 16px;
+    font-size: 16px;
+}
+/* do not group these rules*/
+::-webkit-input-placeholder { color: white; }
+FF 4-18 
+:-moz-placeholder           { color: white; }
+ FF 19+
+::-moz-placeholder          { color: white; }
+ IE 10+
+:-ms-input-placeholder      { color: white; } 
+.products img {
+margin: 0px auto;
+}
+/*--Footer--*/
+.bg-footer{
+	background-color:#191919;
+	padding: 25px;
+}
+.footer-link{
+	margin-bottom:25px;	
+}
+.footer-link ul{
+	margin: 0px;
+	padding: 0px;
+}
+.footer-link ul li{
+list-style-type: none;
+    display: block;
+    /* margin: 16px; */
+    border-bottom: 1px solid #403f3f;
+    line-height: 37px;
+}
+.footer-link ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.margin10{
+	margin:10px;
+}
+.pay-box span{
+	margin:3px;
+}
+.pay-box span img{
+	display: inline-block;
+}
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+input[type=search] {
+	background: #fff 
+	url('../images/search.svg') no-repeat 9px center;
+	border: solid 1px #fff;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+    background-color: #fff;
+    border-color: #969696;
+    -webkit-box-shadow: 0 0 5px rgba(6, 6, 6, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(146, 146, 146, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .xs-center{text-align:center!important;}
+  .navbar-nav {float: left;
+   margin: 0px 0px 38px!important;}
+  .right-part {
+  	top: -61px;
+position: absolute;
+left: 104px;
+ }
+    .m-top {
+    margin-top: 18px;
+}
+.banner-text h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.contact p {
+    text-align: center;
+    margin: 20px 7px -3px 0px;
+}
+
+.middle{
+	height: 100%;
+}
+.pay-box span img {
+    display: inline-block;
+    width: 16%;
+}
+.display-product-option span.button-active.button-grid{
+	margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+
+  .right-part {
+  	top: -61px;
+position: absolute;
+left: 89px;
+ }
+
+.pay-box span img {
+    display: inline-block;
+    width: 16%;
+}
+
+	
+}
+
